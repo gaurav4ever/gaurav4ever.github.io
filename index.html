@@ -1,10 +1,361 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Gaurav Sharma</title>
-</head>
-<body>
-<h1>Welcome</h1>
-My name is gaurav sharma
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>FnB</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Header -->
+
+      <nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Fitness n Beyond</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right choose">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="company.html">Our Athletes</a></li>
+        <li><a href="product.html">Results</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="developer.html">Developer</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Other Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <!--End Header-->
+
+    <!--slide show-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <!-- this code will add new slideshow to the website-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/1.png" alt="office">
+      <div class="carousel-caption">
+      	<h2>The worst thing I could be, is the same as everyone else. I'd hate that.</h2>
+      	<h4>-Arnold Schwarzenegger</h4>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/2.png" alt="lab">
+      <div class="carousel-caption">
+        <h3>To achieve what other won't, You have to do what others don't</h3>
+        <h4>-Lazar Angelov</h4>
+        </div>
+    </div>
+    <div class="item">
+      <img src="img/3.png" alt="freeArea">
+      <div class="carousel-caption">
+        <h2>Victory isn't defined by wins and lossed, it's defined by Effort.</h2>
+        <h4>-Kai Greene</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="clearfix"></div>
+    <!--end slide show-->
+
+    <div class="container">
+
+	<hr class="divider">
+    <main class="footercta" role="main">
+      <div class="container text-center">
+        <h1>Want to <strong>be Fit</strong> <br>
+          You are in the<strong> right</strong> place</h1>
+ 
+        <div class="row">
+          <div class="col-md-12 breath text-center"> 
+            <a href="index.html#top" class="btn btn-success btn-lg gototop">GET EARLY ACCESS</a> 
+          </div>
+        </div>
+      </div><!--/container -->
+    </main><!--/main -->
+
+    <hr class="divider">
+
+		    <div class="row marketing">
+		      <div class="col-md-3 col-sm-4 col-xs-12">
+		        <img src="img/bodybuilding.png" alt="write" class="img-
+		        circle">
+		        <h2>BodyBuilding</h2>
+		        <p>Gym and Muscle development</p>
+		        <a href="#" class="btn btn-default">Details</a>
+		      </div>
+
+		      
+		      <div class="col-md-3 col-sm-4 col-xs-12">
+		        <img src="img/cali.png" alt="write" class="img-
+		        circle">
+		        <h2>Calisthenics</h2>
+		        <p>Bar training</p>
+		        <a href="#" class="btn btn-default">Details</a>
+		      </div>
+
+		      
+		      <div class="col-md-3 col-sm-4 col-xs-12">
+		        <img src="img/yoga.png" alt="write" class="img-
+		        circle">
+		        <h2>Fitness and Yoga</h2>
+		        <p>Atletics and yoga</p>
+		        <a href="#" class="btn btn-default">Details</a>
+		      </div>
+
+		      
+		      <div class="col-md-3 col-sm-4 col-xs-12">
+		        <img src="img/nutrition.png" alt="write" class="img-
+		        circle">
+		        <h2>Nutrition</h2>
+		        <p>Foods and Supplements</p>
+		        <a href="#" class="btn btn-default">Details</a>
+		      </div> 
+		    </div>
+		    <!--marketing-->
+
+		    <hr class="divider">
+
+		    <div class="row">
+    <div class="col-md-7">
+      <h1>Fitness n Beyond (FnB)</h1>
+      <p>Everyone craves for a good physique. But attaining it is not a simple task- it’s a combination of proper diet, adequate exercise, proper guidance, planning and time management. Unfortunately, people usually lack more than one parameters given above. It’s not very easy to exactly pin point the causes. So, Fitness n Beyond’ aimed to tackle all the problems related to fitness among people, provide best nutrition and help to create a bettor person out of oneself.</p>
+    </div>
+     <div class="col-md-5">
+      <img class="pull-right" src="img/logo.png" style="margin-bottom:20px;">
+    </div>
+    </div>
+    	<br>
+
+		    <hr class="divider">
+
+
+	 <div class="row">
+	 		<div class="col-md-5">
+      			<img class="pull-right" src="img/ai1.jpg" style="margin-bottom:60px; margin-right:100px;">
+    		</div>
+		    <div class="col-md-7">
+		      <h1>BodyBuilding</h1>
+		      <p>Bodybuilding is one of the best things that you can do for yourself. Bodybuilding is a hobby or sport, but it’s also a way of life that will impact everything you do and every aspect of yourself as a person. Think that sounds like an exaggeration? It is when people talk about golf or football, but with bodybuilding it’s genuinely true – if only for the fact that no other sport changes the way you look so drastically, the way you feel or what you’re capable of.</p>
+		      <p>Bodybuilding is much like any other sport. To be successfull, you must dedicate yourself 100% to you training, Diet and mental approach.</p>
+		    </div>
+    </div>
+
+			  <hr class="divider">		    
+
+
+	<div class="row">
+	 		<div class="col-md-7">
+		      <h1>Calisthenics</h1>
+		      <p>Calisthenics are exercises consisting of a variety of gross motor movements; often rhythmical and generally without equipment or apparatus. They are, in essence, body-weight training. They are intended to increase body strength, body fitness, and flexibility, through movements such as pulling or pushing oneself up, bending, jumping, or swinging, using only one's body weight for resistance; usually conducted in concert with stretches. </p>
+		      <p>
+		      	Embrace and love your body, its the most amazing thing you will ever own.<br>-Frank Medrano 
+		      </p>
+		    </div>
+		    <div class="col-md-5">
+      			<img class="pull-right" src="img/ai2.jpg" >
+    		</div>
+    </div>
+
+
+    		<hr class="divider">	
+
+     <div class="row">
+	 		<div class="col-md-5">
+      			<img class="pull-right" src="img/ai3.jpg" style="margin-right:80px;">
+    		</div>
+		    <div class="col-md-7">
+		      <h1>Fitness and Yoga</h1>
+		      <p>
+		      	The art of practicing yoga helps in controlling an individual's mind, body and soul. It brings together physical and mental disciplines to achieve a peaceful body and mind; it helps manage stress and anxiety and keeps you relaxing. It also helps in increasing flexibility, muscle strength and body tone. It improves respiration, energy and vitality. Practicing yoga might seem like just stretching, but it can do much more for your body from the way you feel, look and move
+		      </p>
+		    </div>
+    </div>
+
+    		<hr class="divider">	
+    		
+     <div class="row">
+		    <div class="col-md-7">
+		      <h1>Nutrition</h1>
+		      <p>"It is well known that habitual consumption of poor diets means increased risk of future disease, but clearly this is not a compelling enough reason for many to improve their eating habits," said Bruce Ames, Ph.D., a senior scientist </p>
+		      <p>
+		      	Nutrition is what gives us the raw materials for recuperation, energy, and growth. Without a good diet, your dreams of achieving your ideal body will never be reached.
+		      </p>
+		    </div>
+		    <div class="col-md-5">
+      			<img class="pull-right" src="img/ai4.jpg" >
+    		</div>
+    </div>
+
+		<!--Pricing details-->
+		<hr class="divider">
+
+		    <div class="section-title text-center" style="margin-bottom: 30px;">
+		        <h2>Choose Our Fitness Programes</h2>
+		        <h4>See results by yourself.</h4>
+		      </div>
+
+		      <section class="row breath planpricing text-center">
+		          <div class="row">
+		             <div class="col-xs-6 col-md-4">
+		               <div class="thumbnail color1">
+		               		<a href="#" style="text-decoration:none;color:#000000;">
+				        	<div class="planname"><h2>6 Months</h2></div>
+		                  <div class="price"><h4> Shredded Program</h4></div>
+		                  <div class="billing"><h4>Chisel yourself to the best.</h4></div>
+		                  </a>
+				        </div>
+				     </div>
+		  
+		              <div class="col-xs-6 col-md-4">
+		                <div class="thumbnail color2">
+		                <a href="#" style="text-decoration:none;color:#000000;">
+		                  <div class="planname"><h2>Muscle Gainer</h2></div>
+		                  <div class="price"><h4>8 Weeks</h4></div>
+		                  <div class="billing"><h4>Gain 15 pounds of Muscle</h4></div>
+		                 </a>
+		                </div>
+		            </div>
+
+		            <div class="col-xs-6 col-md-4">
+		              <div class="thumbnail color3">
+		              <a href="#" style="text-decoration:none;color:#000000;">
+		                <div class="planname"><h2>1 Month</h2></div>
+		                <div class="price"><h4>Calisthenics</h4></div>
+		                <div class="billing"><h4>Make yourself flexible</h4></div>
+		               </a>
+		              </div>
+		            </div>
+		          </div>
+		      </section>
+
+  <!--End Pricing details-->
+
+<hr class="divider">
+	<center><h1 style="margin-bottom:40px;">Motivation</h1>
+	<h4>“EVERYBODY WANTS TO BE A “POWERBUILDER”, BUT DON’T NOBODY WANT TO LIFT NO HEAVY-ASS WEIGHTS.” <br><br>- <strong>RONNIE COLEMAN</strong></h4>
+	<br>
+	<h4>“I DON’T EAT FOR TASTE, I EAT FOR FUNCTION.” <br><br>-<strong>JAY CUTLER</strong></h4>
+	<br>
+	<h4>"FOR ME, LIFE IS CONTINUOUSLY BEING HUNGRY. THE MEANING OF LIFE IS NOT SIMPLY TO EXIST, TO SURVIVE, BUT TO MOVE<br><br> AHEAD, TO GO UP, TO ACHIEVE, TO CONQUER.”<br><br> – <strong>ARNOLD SCHWARZENEGGER</strong></h4>
+	<br>
+	<h4>
+		"BE A LEGENED. IT'S ABOUT BEING THE BEST VERSION OF YOURSELF."<br><br>
+		-<strong>SERGI CONSTANCE<strong>
+	</h4>
+	<br>
+	<h4>
+		"YEAH, THEY CALL ME 'THE GIFT'. BUT I'VE WORKED HARD TO GET TO THIS POINT."<br>
+		<br>
+		-<strong>PHIL HEATH</strong>
+	</h4>
+	</center>
+
+
+
+</div>
+        
+        	<div class="footer" style="margin-top:60px;">
+			<div class="container footcontainer">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Products</h4>
+							<li><a href="#">Supplements</a></li>
+							<li><a href="#">Gym gears</a></li>
+							<li><a href="#">Nutrition</a></li>
+							<li><a href="#">Motivation</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+							<li><a href="jandi.html">Get a Diet Chart</a></li>
+							<li><a href="#">BodyBuilding</a></li>
+							<li><a href="#">calisthenics</a></li>
+							<li><a href="#">Catalog Request/Download</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Customer Support</h4>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="#">Workout Plans</a></li>
+							<li><a href="#">30 Day challenges</a></li>
+							<li><a href="#">Get to Store</a></li>
+							<li><a href="#">Send your condition</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						
+							<h4 class="sc">Stay connected</h4>
+							<form class="scform">
+								<input type="text" value="Enter your email" onfocus="this.value='';" onblur="if(this.value==''){this.value='Enter your email';}">
+								<input type="submit" value="GO">
+							</form>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+
+        	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/jquery.min.js">
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
