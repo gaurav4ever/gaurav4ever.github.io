@@ -1,3 +1,4 @@
+
 .navbar{
 	border-radius: 0px !important;
 	margin-bottom: 0px;
@@ -21,6 +22,7 @@ border:solid 1px #eee;
 }
 .thumbnail img{
 	width: 100%;
+
 }
 .section-title h4{
 	color: #94a3a8;
@@ -141,9 +143,9 @@ dt{
 		border-bottom: 1px solid #c5c5c5;
 		border-top: 1px solid white;
 	}
-	.hide{display: none;}
-	dt:first-child{border-top: none;}
-	dt:nth-last-child(2){border-bottom: none;}
+.hide{display: none;}
+dt:first-child{border-top: none;}
+dt:nth-last-child(2){border-bottom: none;}
 ul li{
 	list-style: none;
 }
